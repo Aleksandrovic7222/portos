@@ -266,7 +266,7 @@ $("#lastName").keyup(checklastName);
 
 
 function checklastName(){
-    let nameReg=/^[A-Z][a-z]{2,}(\s[A-Z][a-z]{2,})?$/;
+    let nameReg=/^[A-ZČĆŠĐŽ][a-zčćšđž]{2,}(\s[A-ZČĆŠĐŽ][a-zčćšđž]{2,})?$/;
     //ovde dodati srpske karaktere
 
     let nameValue=$("#lastName").val(); 
@@ -288,7 +288,7 @@ $("#firstName").keyup(checkFirstName);
 
 
 function checkFirstName(){
-    let nameReg=/^[A-Z][a-z]{2,}$/;
+    let nameReg=/^[A-ZČĆŠĐŽ][a-zčćšđž]{2,}$/;
     //ovde dodati srpske karaktere
 
     let nameValue=$("#firstName").val(); 
