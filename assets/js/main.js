@@ -398,7 +398,7 @@ function footer(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 100) {
+    if (scroll >= 50) {
         $("header").addClass("scrolling");
     } else {
         $("header").removeClass("scrolling");
