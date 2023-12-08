@@ -1,0 +1,107 @@
+img{
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid #673b2b;
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    background-color: white;
+}
+.ourStory{
+    padding-top: 90px;
+}
+#logo a,#hamburger, header a, header a:hover, h1, h2, h3{
+    color: #673b2b;
+}
+ul{
+    list-style-type: none;
+}
+.owl-carousel div{
+    height: 300px;
+
+}
+.img-owl{
+    position: relative;
+}
+.owl-carousel div{
+    height: auto;
+}
+.text-owl{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: rgba(21, 21, 22, 0.418);
+    padding: 20px;
+}
+.home-text{
+    text-align: justify;
+}
+#icons{
+    text-align: center;
+}
+#icons img{
+    width: 70px;
+    height: 70px;
+}
+#icons p{
+    color: #f7dea3;
+}
+.iconsHolder{
+    background-color: #673b2b;
+}
+.menuItems{
+    background-color: #f5f5f5;
+}
+img{
+    border-radius: 0.25rem;
+}
+.menuItems img{
+    border-radius: 0.25rem 0.25rem 0px 0px;
+}
+.menuItems p{
+    color: #673b2b;
+}
+.menuItems a{
+    background-color: #673b2b;
+    border-radius: 0.25rem;
+
+}
+.locationImage img{
+    width: 20%;
+}
+.asnwerEvent p{
+    display: none;
+    color: #673b2b;
+}
+input, select, textarea{
+    border: 1px solid #673b2b!important;
+}
+input[type=button]{
+    background-color: #673b2b;
+    color: white;
+}
+footer{
+    background-color: #f5f5f5;
+}
+nav{
+    display: none;
+}
+@media only screen and (max-width: 1300px){
+    .text-owl{
+        top: 0px;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .text-owl{
+        p{
+            display: none;
+        }
+    }
+}
